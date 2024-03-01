@@ -10,11 +10,11 @@ comment:
     distractionFreeMode: true
 socialList:
   - name: telegram
-    url:
+    url: https://jx0628.github.io/
   - name: github
-    url:
+    url: https://jx0628.github.io/
   - name: mail
-    url:
+    url: https://jx0628.github.io/
 highlight:
   light: https://cdn.staticfile.org/highlight.js/11.5.0/styles/github.min.css
   dark: https://cdn.staticfile.org/highlight.js/11.5.0/styles/github-dark.min.css

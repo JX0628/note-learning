@@ -16,3 +16,4 @@ _multiconfig.yml
 *.njsproj
 *.sln
 *.sw?
+public
