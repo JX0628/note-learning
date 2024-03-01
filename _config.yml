@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Jx0628
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Kjm
 language: en
 timezone: ''
 
@@ -45,11 +45,10 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
+  enable: true
+  line_number: false
+  wrap: false
+  hljs: true
 prismjs:
   preprocess: true
   line_number: true
@@ -96,9 +95,10 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: instapaper
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
