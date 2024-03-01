@@ -1,9 +1,9 @@
 comment:
   gitalk:
     enable: true
-    owner:
-    admin:
-    repo:
+    owner: Jx0629
+    admin: Kjm
+    repo: https://jx0628.github.io/
     ClientID:
     ClientSecret:
     labels: 'gitalk'
@@ -20,4 +20,4 @@ highlight:
   dark: https://cdn.staticfile.org/highlight.js/11.5.0/styles/github-dark.min.css
 copyright:
   enable: true
-  license: '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
+  license: ''
