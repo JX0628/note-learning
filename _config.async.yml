@@ -1,3 +1,52 @@
+user:
+  name: 测试
+  first_name: 测试1
+  last_name: 测试2
+  email: admin@imalun.com
+  domain: https://www.imalun.com
+  avatar: /img/avatar.jpg
+  describe: 网站简介。
+  ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
+
 theme:
   switch: true
   default: style-light # style-light style-dark
+favicon:
+  logo: log.png
+  icon16: log.png
+  icon32: log.png
+  appleTouchIcon: apple-touch-icon.png
+  webmanifest: /site.webmanifest
+  visibilitychange: true
+  hidden: failure.ico
+  showText: (/≧▽≦/)咦！又好了！
+  hideText: (●—●)喔哟，崩溃啦！
+assets:
+  third_party_provider: https://npm.elemecdn.com
+
+sidebar:
+  # 打字动画
+  typedTextPrefix: I`m
+  typedText: [ "Web Developer" ]
+  # 图标及地址配置
+  social: # 社交地址
+    - name: github
+      icon: far fa-address-book
+      url: https://github.com
+    - name: gitee
+      icon: far fa-check-square
+      url: https://gitee.com
+
+top_bars:
+  - title: 首页
+    url: /
+    children:
+      - title: archives2
+        url: /archives2/
+  - title: 归档
+    url: /archives/
+    noswup: true
+  - title: 分类
+    url: /categories/
+    noswup: true
+
