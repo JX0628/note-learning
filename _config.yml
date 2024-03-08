@@ -1,9 +1,10 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
 
-# Site
-title: Jx0628
+# Site -- 网站
+
+# 标题
+title: jx0628
 subtitle: 'JX0628'
 description: 'JX0628'
 keywords:
