@@ -12,15 +12,15 @@ theme:
   switch: true
   default: style-light # style-light style-dark
 favicon:
-  logo: log.png
-  icon16: log.png
-  icon32: log.png
+  logo: logo.svg
+  icon16: logo.svg
+  icon32: logo.svg
   appleTouchIcon: apple-touch-icon.png
   webmanifest: /site.webmanifest
   visibilitychange: true
-  hidden: failure.ico
-  showText: (/≧▽≦/)咦！又好了！
-  hideText: (●—●)喔哟，崩溃啦！
+  hidden: logo.svg
+  showText: JX
+  hideText: JX
 assets:
   third_party_provider: https://npm.elemecdn.com
 
