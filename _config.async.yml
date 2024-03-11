@@ -69,3 +69,16 @@ toc:
   post_title: false
   max_depth: 3
   min_depth: 1
+
+footer:
+  powered:
+    enable: false
+  beian:
+    enable: false
+    icp:
+  copyrightYear: 2024
+  live_time:
+    enable: false
+    prefix: footer.tips
+    start_time: 04/10/2022 17:00:00
+  custom_text: '更好的学习'
