@@ -1,28 +1,29 @@
 user:
-  name: 测试
-  first_name: 测试1
-  last_name: 测试2
-  email: admin@imalun.com
-  domain: https://www.imalun.com
-  avatar: /img/avatar.jpg
-  describe: 网站简介。
-  ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。
+  name: 江平 # 昵称
+  first_name: 平 # 名字
+  last_name: 江 # 姓氏
+  email: kjm_2021@163.com # 邮箱
+  domain: https://jx0628.github.io # 域名
+  avatar: /assets/images/avatar.png # 头像
+  describe: 网站简介。 #网站简介
+  ruleText: 暂不接受个人博客以外的友链申请，确保您的网站内容积极向上，文章至少30篇，原创70%以上，部署HTTPS。 #友链交换规则
 
 theme:
-  switch: true
-  default: style-light # style-light style-dark
+  switch: true # 主题切换按钮
+  default: style-light # style-light style-dark 主题默认模式
+
 favicon:
-  logo: logo.svg
-  icon16: logo.svg
-  icon32: logo.svg
-  appleTouchIcon: apple-touch-icon.png
+  logo: /assets/images/favicon.ico
+  icon16: /assets/images/favicon-16x16.png
+  icon32: /assets/images/favicon-32x32.png
+  appleTouchIcon: /assets/images/favicon-32x32.png
   webmanifest: /site.webmanifest
-  visibilitychange: true
-  hidden: logo.svg
-  showText: JX
-  hideText: JX
+  visibilitychange: false # 是否在离开窗口时切换标题显示
+  hidden: /assets/images/favicon.ico # 离开窗口时显示图标
+  showText: # 激活窗口时显示文字
+  hideText: # 离开窗口显示文字
 assets:
-  third_party_provider: https://npm.elemecdn.com
+  third_party_provider: https://npm.elemecdn.com # 三方插件 JS 的 CDN 配置
 
 sidebar:
   # 打字动画
