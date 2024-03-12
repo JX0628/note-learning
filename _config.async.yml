@@ -81,7 +81,7 @@ footer:
     enable: false
     prefix: footer.tips
     start_time: 04/10/2022 17:00:00
-  custom_text: '更好的学习'
+  custom_text: '好好学些，天天向上'
 
 layout:
   footer: async/footer/footer
