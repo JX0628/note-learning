@@ -22,46 +22,44 @@ favicon:
   hidden: /assets/images/favicon.ico # 离开窗口时显示图标
   showText: # 激活窗口时显示文字
   hideText: # 离开窗口显示文字
+
 assets:
   third_party_provider: https://npm.elemecdn.com # 三方插件 JS 的 CDN 配置
 
 sidebar:
   # 打字动画
-  typedTextPrefix: I`m
-  typedText: [ "Web Developer" ]
+  typedTextPrefix:
+  typedText: [ "越努力，越幸运！" ]
   # 图标及地址配置
   social: # 社交地址
     - name: github
-      icon: far fa-address-book
-      url: https://github.com
-    - name: gitee
-      icon: far fa-check-square
-      url: https://gitee.com
-  info: # 个人信息
-    - key: 地址
-      val: 火星
+      icon: fab fa-github-square
+      url: https://jx0628.github.io
+  # 个人信息
+  info:
     - key: 年龄
-      val: 18
+      val: 18+
 
+# 顶部目录
 top_bars:
   - title: 首页
     url: /
-    children:
-      - title: archives2
-        url: /archives2/
   - title: 归档
     url: /archives/
     noswup: true
-  - title: 分类
-    url: /categories/
+  - title: 相册
+    url: /album/
+    noswup: true
+  - title: 关于
+    url: /about/
     noswup: true
 
 banner:
   index:
     type: img
-    bgurl: https://pic1.zhimg.com/v2-b3c2c6745b9421a13a3c4706b19223b3_r.jpg?source=1940ef5c
-    bannerTitle: 树深时见鹿，<br>溪午不闻钟。
-    bannerText: Hi my new friend!
+    bgurl: /assets/images/banner-bgc-image.png
+    bannerTitle: 宠辱不惊，</br>闲看庭前花开花落。
+    bannerText: Don't give up when you are able to fly.
 
 toc:
   enable: true
@@ -81,10 +79,10 @@ footer:
     enable: false
     prefix: footer.tips
     start_time: 04/10/2022 17:00:00
-  custom_text: '好好学些，天天向上'
+  custom_text: '去留无意，漫随天外云卷云舒'
 
-layout:
-  footer: async/footer/footer
+#layout:
+#  footer: async/footer/footer
 
 # 图片封面 -- 随机设置
 cover:
