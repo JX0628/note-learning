@@ -47,12 +47,16 @@ top_bars:
   - title: 归档
     url: /archives/
     noswup: true
+  - title: 分类
+    url: /categories/
+    noswup: true
   - title: 相册
     url: /album/
     noswup: true
   - title: 关于
     url: /about/
     noswup: true
+
 
 banner:
   default:
