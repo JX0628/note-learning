@@ -55,11 +55,57 @@ top_bars:
     noswup: true
 
 banner:
+  default:
+    type: img
+    bgurl: /assets/images/banner-bgc-image.png
+    bannerText: Don't give up when you are able to fly.
+    position: top
+    fit: cover
   index:
     type: img
     bgurl: /assets/images/banner-bgc-image.png
     bannerTitle: 宠辱不惊，</br>闲看庭前花开花落。
     bannerText: Don't give up when you are able to fly.
+  archive:
+    type: img
+    bgurl: /assets/images/banner-bgc-image.png
+    bannerTitle: 宠辱不惊，</br>闲看庭前花开花落。
+    bannerText: Don't give up when you are able to fly.
+  album:
+    type: img
+    bgurl: /assets/images/banner-bgc-image.png
+    bannerTitle: 宠辱不惊，</br>闲看庭前花开花落。
+    bannerText: Don't give up when you are able to fly.
+  about:
+    type: img
+    bgurl: /assets/images/banner-bgc-image.png
+    bannerTitle: 宠辱不惊，</br>闲看庭前花开花落。
+    bannerText: Don't give up when you are able to fly.
+
+#    banner:
+#      use_cover: false
+#      default:
+#        type: img
+#        bgurl: /img/banner.png
+#        bannerText: Hi my new friend!
+#        position: top
+#        fit: cover
+#      index:
+#        bannerTitle: 树深时见鹿，<br>溪午不闻钟。
+#        bannerText: Hi my new friend!
+#        videoUrl:
+#      archive:
+#        bannerTitle: 云间连下榻，<br>天上接行杯。
+#        bannerText: The article archive
+#      links:
+#        bannerTitle: 莫愁前路无知己，<br>天下谁人不识君。
+#        bannerText: A link to a friend's website
+#      comment:
+#        bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
+#        bannerText: The magic tree hole
+#      about:
+#        bannerTitle: 醉后不知天在水，<br>满船清梦压星河。
+#        bannerText: About me
 
 toc:
   enable: true
