@@ -1,5 +1,6 @@
 ---
-title: 相册页面
+title: album
+layout: album
 ---
 
 <div class="row">
